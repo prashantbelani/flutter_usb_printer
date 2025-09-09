@@ -26,7 +26,7 @@ class USBPrinterAdapter {
     private val LOG_TAG = "Flutter USB Printer"
     private var mContext: Context? = null
     private var mUSBManager: UsbManager? = null
-    private var mPermissionIndent: PendingIntent? = null
+    private var mPermissionIntent: PendingIntent? = null
     private var mUsbDevice: UsbDevice? = null
     private var mUsbDeviceConnection: UsbDeviceConnection? = null
     private var mUsbInterface: UsbInterface? = null
